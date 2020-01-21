@@ -23,6 +23,12 @@ if ~exist('saveimg','var')
     saveimg = 0;
 end
 
+if saveimg
+    saveimg = 1
+else
+    saveimg = 0
+end
+
 %% load images
 imgs = cell(1,numimg);
 imgarr = cell(1,numimg);
