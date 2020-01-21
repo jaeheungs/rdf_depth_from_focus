@@ -11,6 +11,7 @@ Note: This code was used for the quantitative analysis in the paper (bokeh detec
 - Usage:
 	+ run `demo.m` for an example run on the `Buddha` set
 	+ set `use_rdf_agg` to `false` for CVPR version or to `true` 
+	
 	```matlab
 	[rdf_labels, im_all_in_focus] = RDF_DFF(pathval, regexp, i_start, numimg, 
 	show_fig, resize, use_parallel, use_rdf_agg, use_fast_jwmf, saveimg)
